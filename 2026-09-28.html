@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>法学每日播报 · 2026-09-28</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.75;
+    color: #2b2b2b;
+    background: #f6f5f2;
+    padding: 24px 16px;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+
+  /* ---------- header ---------- */
+  .head {
+    background: #1e3a5f;
+    color: #f6f5f2;
+    border-radius: 12px;
+    padding: 30px 34px;
+    margin-bottom: 20px;
+  }
+  .head h1 { font-family: "Songti SC", "STSong", "SimSun", Georgia, serif; font-size: 25px; letter-spacing: 2px; margin-bottom: 10px; }
+  .head .meta { font-size: 12.5px; opacity: .8; }
+  .head .meta span { margin-right: 14px; }
+
+  /* ---------- sections ---------- */
+  .sec { background: #ffffff; border-radius: 12px; padding: 26px 30px; margin-bottom: 20px; }
+  .sec > h2 {
+    font-family: "Songti SC", "STSong", "SimSun", Georgia, serif;
+    font-size: 21px; color: #1e3a5f; margin-bottom: 6px;
+    letter-spacing: 1.5px; font-weight: 700;
+    border-bottom: 2px solid #1e3a5f; padding-bottom: 8px;
+  }
+  .sec > .sub { font-size: 12px; color: #8a8578; margin-bottom: 18px; }
+
+  /* ---------- category chips ---------- */
+  .chip {
+    display: inline-block; font-size: 11px; line-height: 1;
+    padding: 4px 9px; border-radius: 99px; margin-right: 6px;
+    font-weight: 600; letter-spacing: .5px; vertical-align: 2px;
+  }
+  .c-corp  { background:#f6e7d5; color:#b45309; }   /* 公司法/商法/金融 */
+  .c-dig   { background:#ebe4f7; color:#6d28d9; }   /* 数字/AI/数据 */
+  .c-civ   { background:#dde8f8; color:#1d4ed8; }   /* 民法/合同/家事 */
+  .c-crim  { background:#f9dede; color:#b91c1c; }   /* 刑法 */
+  .c-pub   { background:#d9ece9; color:#0f766e; }   /* 宪法/行政/司法制度 */
+  .c-intl  { background:#e4e7eb; color:#475569; }   /* 国际/其他 */
+
+  /* ---------- article cards ---------- */
+  .card {
+    border-left: 4px solid #b45309;
+    background: #ffffff;
+    padding: 14px 18px; margin: 12px 0; border-radius: 0 8px 8px 0;
+  }
+  .card.corp { border-left-color: #b45309; }
+  .card h4 {
+    font-size: 14.5px; color: #7c4a03; font-weight: 700;
+    background: #f6e7d5; padding: 7px 12px; margin: 0 0 10px;
+    border-radius: 6px; letter-spacing: .3px;
+  }
+  .card .src { font-size: 12px; color: #8a8578; margin-bottom: 6px; }
+  .card p { font-family: Georgia, "Songti SC", "SimSun", serif; font-size: 13px; color: #444; margin-bottom: 5px; }
+  .card .ins {
+    font-family: Georgia, "Songti SC", "SimSun", serif;
+    font-size: 12.5px; color: #7c4a03; background: #fdf9f2;
+    padding: 6px 10px; border-radius: 6px; margin-top: 6px;
+  }
+  .card a { font-size: 12px; color: #1e3a5f; word-break: break-all; }
+
+  /* ---------- case spotlight ---------- */
+  .casebox {
+    border: 2px solid #b45309; background: #fffdf7;
+    padding: 18px 20px; margin: 12px 0; border-radius: 10px;
+  }
+  .casebox h3 { font-family: "Songti SC", "SimSun", Georgia, serif; font-size: 15px; color: #7c4a03; margin-bottom: 8px; letter-spacing: .5px; }
+  .casebox p { font-size: 13px; color: #444; margin-bottom: 5px; }
+  .casebox .src { font-size: 12px; color: #8a8578; }
+
+  /* ---------- list rows（统一为图一卡片风格：白底+琥珀左边条+衬线正文） ---------- */
+  ul.rows { list-style: none; }
+  ul.rows li {
+    font-family: Georgia, "Songti SC", "SimSun", serif;
+    font-size: 13px; color: #444; line-height: 1.7;
+    background: #ffffff;
+    border-left: 4px solid #b45309;
+    padding: 10px 14px; margin: 10px 0;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 1px 2px rgba(30,58,95,.06);
+  }
+
+  /* ---------- journal blocks ---------- */
+  .journal { margin-bottom: 20px; }
+  .journal > h3 {
+    font-family: "Songti SC", "STSong", "SimSun", Georgia, serif;
+    font-size: 16.5px; color: #1e3a5f; text-align: center;
+    letter-spacing: 1.5px; font-weight: 700;
+    padding-bottom: 8px; border-bottom: 2px solid #1e3a5f; margin-bottom: 14px;
+  }
+  .journal > h3 .issue { font-size: 12px; color: #8a8578; font-family: -apple-system, sans-serif; font-weight: 400; }
+
+  /* ---------- trend table ---------- */
+  table.trend { width: 100%; border-collapse: collapse; font-size: 13px; margin: 10px 0 16px; }
+  table.trend th, table.trend td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #eee9e0; }
+  table.trend th { background: #1e3a5f; color: #fff; font-weight: 500; }
+
+  .recommend { border-left: 4px solid #b45309; background:#fdf9f2; padding: 10px 14px; margin: 8px 0; border-radius: 0 6px 6px 0; font-size: 13px; }
+
+  .foot { text-align: center; font-size: 11.5px; color: #8a8578; padding: 6px 0 20px; }
+  .note { font-size: 12px; color: #8a8578; background:#fbfaf8; border-radius: 8px; padding: 12px 16px; margin-top: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="head">
+  <h1>法学每日播报 · 2026-09-28（周一）</h1>
+  <div class="meta">
+    <span>📱 推送渠道：微信</span>
+    <span>🎯 关注：公司法 / 商法</span>
+    <span>📅 第 002 期（试刊）</span>
+  </div>
+</div>
+
+<!-- ============ 今日公司法/商法重点 ============ -->
+<div class="sec">
+  <h2>⭐ 今日公司法 / 商法 · 重点展开</h2>
+  <div class="sub">本板块为公司法/商法专属，展开核心论点与实务启示；其余领域见后文分类罗列</div>
+
+  <div class="card corp">
+    <h4><span class="chip c-corp">公司法司法解释</span>2026 年中文法学界的绝对主线：《公司法司法解释（征求意见稿）》评析潮</div>
+    <div class="src">清华法学 2026 年第 2 期「公司法司法解释专栏」＋ 法学家 2026 年第 4 期「征求意见稿评析」专题 ＋ 法律适用第 7 / 9 期两个公司法专题</div>
+    <p><strong>要点</strong>：最高法 2025 年 9 月 30 日发布《公司法司法解释（征求意见稿）》后，顶刊在 2026 年集中形成评析潮——钱玉林论董事催缴出资责任（解释第 27 条）、陈洁论定增保底协议效力（建议主体区分路径：上市公司保底条款无效、利益相关方保底有效）、刘斌论违法关联交易效力评价、刘鹏飞重构法人人格否认程序模式。</p>
+    <div class="ins"><strong>实务启示</strong>：征求意见稿的每一条都可能变成明年生效的裁判规则。做公司业务/诉讼的读者，建议把清华法学 2026-2、法学家 2026-4 两期作为整期精读对象。</div>
+  </div>
+
+  <div class="card corp">
+    <h4><span class="chip c-corp">公司法</span>法律适用 2026-9 ｜ 上市公司限售股制度专题（徐明、黄佩蕾）</div>
+    <div class="src">《法律适用》2026 年第 9 期 · 最高人民法院国家法官学院</div>
+    <p><strong>要点</strong>：徐明论限售股股东违规减持的民法属性及责任构成；黄佩蕾论限售股处置的法律适用问题。</p>
+    <div class="ins"><strong>实务启示</strong>：违规减持责任从"监管处罚"向"民事赔偿"延伸的最新体系化论述，证券合规条线必读。</div>
+  </div>
+
+  <div class="card corp">
+    <h4><span class="chip c-corp">公司法</span>法学家 2026-5 ｜ 母子公司监督机制 & 对赌回购权的组织法解构</div>
+    <div class="src">《法学家》2026 年第 5 期（总第 218 期，2026-09-15 刊出）</div>
+    <p><strong>要点</strong>：陈景善以"资产管理理论"为母公司董事设定建立母子公司监督机制的义务，全资控股采"一体型"、参股采"分体型"；叶冬影指出对赌回购权并非单纯债权，其创设须以章程记载或股东会决议为基础，公司回购受资本维持、减资程序与财源限制约束。</p>
+    <div class="ins"><strong>实务启示</strong>：对赌协议"合同有效但难以执行"困境的组织法解法——回购款支付以依法可用财源为限，缺财源不当然构成违约；这与此前"股份回购清偿能力"研究形成呼应，构成 2026 年"回购/对赌"双子星议题。</div>
+  </div>
+
+  <div class="card corp">
+    <h4><span class="chip c-corp">证券法</span>政法论坛 2026-4 ｜ 曾洋：回归"信息信赖"——证券虚假陈述信赖证明规则的修正</div>
+    <div class="src">《政法论坛》2026 年第 4 期「金融法治研究」专题</div>
+    <p><strong>要点</strong>：批评"价格信赖"推定路径（欺诈市场理论）的理论基础与实践缺陷，主张回归"信息信赖"证明路径，并对推定适格原告设定最高额赔偿上限，以遏制集团诉讼的过度赔偿。</p>
+    <div class="ins"><strong>实务启示</strong>：直接关系证券虚假陈述代理与抗辩策略——原告侧举证路径重构 + 被告侧新增"赔偿上限"论点。</div>
+  </div>
+
+  <div class="card corp">
+    <h4><span class="chip c-corp">公司法 · 美国</span>Yale L.J. ｜ Reverse Acquihires Under the Clayton Act §7</div>
+    <div class="src">David T. Wong, Yale Law Journal Vol. 135 (June 2026)</div>
+    <p><strong>要点</strong>：AI 行业"反向人才并购"（不收购公司、只挖走核心团队）应被 Clayton Act 第 7 条覆盖——其本质是对"人力资本"这一无形资产的收购。</p>
+    <div class="ins"><strong>实务启示</strong>：为国内" AI 大厂批量挖角初创团队"的反垄断规制提供域外教义资源；对比中国《反垄断法》经营者集中申报的营业额门槛，此类交易目前处于监管盲区。</div>
+  </div>
+
+  <div class="card corp">
+    <h4><span class="chip c-corp">公司治理 · 英国</span>JCLS Vol 26(1) ｜ 整期公司治理专号</div>
+    <div class="src">Journal of Corporate Law Studies, Vol. 26, Issue 1 (2026)</div>
+    <p><strong>要点</strong>：Royal Mail 私有化后的治理与信任失败教训（Xu & Villiers）；CSR/ESG 法的秩序自由主义批判（Siems & Schnyder）；英国法上 Shareholder Rule 的存废（Fitzalan Howard）；巴西"股东暴政"对股东民主的反思（Ginzel）；数字时代公司治理的利益相关者扩展（Xiong & Tomasic）；印度公司法目的的实体路径（Pandey & Ram Mohan）。</p>
+    <div class="ins"><strong>实务启示</strong>：股东中心主义 vs 利益相关者主义的 2026 年度全球盘点，其中 CSR/ESG 一篇对中资出海企业的 ESG 合规叙事有直接参考价值。</div>
+  </div>
+</div>
+
+<!-- ============ 案例专区 ============ -->
+<div class="sec">
+  <h2>🏛️ 最高法 / 最高检 · 指导性案例 / 典型案例 / 院长致辞专区</h2>
+  <div class="sub">⭐ 案例类发布单列展示；本期未检索到院长回信类内容，如后续在公众号发布将如实标注</div>
+
+  <div class="casebox">
+    <h3>⚖️ 最高人民法院 ＆ 最高人民检察院 ｜ 联合发布依法惩治网络食品安全犯罪典型案例</h3>
+    <p><strong>看点</strong>："两高"联合发布，聚焦网络平台内食品安全犯罪全链条惩治；配套可见"云端食安治理的司法答卷"专题报道。对平台责任、行刑衔接有直接示范意义。</p>
+    <div class="src">出处：court.gov.cn（2026-09-22 前后）；spp.gov.cn 网上发布厅</div>
+  </div>
+
+  <div class="casebox">
+    <h3>⚖️ 最高人民检察院 ｜"食品安全宣传周"检察公益诉讼典型案例</h3>
+    <p><strong>看点</strong>：检察公益诉讼在食品安全领域的最新批次案例，与上述"两高"刑案案例形成"刑事 + 公益诉讼"双轨。</p>
+    <div class="src">出处：spp.gov.cn（2026-09-24）</div>
+  </div>
+
+  <div class="casebox">
+    <h3>⚖️ 最高人民法院 ｜《人民法院司法改革案例选编（十六）》暨提级管辖典型案例</h3>
+    <p><strong>看点</strong>：司法机制类案例——提级管辖的操作样本，对复杂商事案件的管辖策略选择有参考意义。</p>
+    <div class="src">出处：court.gov.cn 要闻</div>
+  </div>
+
+  <div class="casebox">
+    <h3>📜 最高人民法院 ｜《全国法院审理房地产开发企业破产案件座谈会纪要》</h3>
+    <p><strong>看点</strong>：房地产开发企业破产审理的专门纪要（司法文件类），房企出清背景下的重要裁判规范文件——严格说是"会议纪要"而非指导性案例，但实务权重高，故置于本专区。</p>
+    <div class="src">出处：court.gov.cn 权威发布</div>
+  </div>
+
+  <div class="note">📌 院长回信类内容：本期 5 个官网均未检索到"院长回信/公开信"专栏内容。海淀法院官网（hdqfy.bjcourt.gov.cn）与北京高院官网（bjcourt.gov.cn，创宇云盾反爬）本期自动抓取失败，此类内容若仅在公众号发布，将在后续日报中标注"官网无存档，公众号可见"。</div>
+</div>
+
+<!-- ============ 两高其他动向 ============ -->
+<div class="sec">
+  <h2>📌 最高法 / 最高检其他动向</h2>
+  <ul class="rows">
+    <li><span class="chip c-corp">金融</span>最高检：凝聚执法司法合力，携手推动金融高质量发展（9-24）</li>
+    <li><span class="chip c-dig">AI/数字</span>最高检理论研究：《大语言模型赋能检察侦查工作提质增效》《人工智能体侵害人格权风险及其应对》</li>
+    <li><span class="chip c-crim">刑事</span>"两高一部"：办理涉芬太尼类物质刑事案件适用法律若干问题的意见 + 立案追诉标准（9-23）</li>
+    <li><span class="chip c-crim">刑事</span>三部门：电磁动力枪支及散件认定法律适用会议纪要（9-23）</li>
+    <li><span class="chip c-pub">司法数据</span>最高法研判会商 2026 年第一季度司法审判数据（张军：把工作做到实处）</li>
+    <li><span class="chip c-intl">外事</span>张军会见土耳其最高行政法院院长、尼泊尔首席大法官、萨摩亚首席大法官；最高法民四庭调解 30 年涉港房屋纠纷</li>
+    <li><span class="chip c-corp">商事</span>最高法国际商事专家委员会第五届研讨会综述；中央企业 2025 年度工资分配与负责人薪酬信息披露</li>
+  </ul>
+</div>
+
+<!-- ============ 期刊新篇 ============ -->
+<div class="sec">
+  <h2>📚 期刊新篇（按领域色块分类）</h2>
+  <div class="sub">色块规则：<span class="chip c-corp">公司法/商法/金融</span><span class="chip c-dig">数字/AI/数据</span><span class="chip c-civ">民法/程序</span><span class="chip c-crim">刑法</span><span class="chip c-pub">宪法/行政</span><span class="chip c-intl">国际/其他</span> ｜ ⭐ 公司法/商法文章展开</div>
+
+  <div class="journal">
+    <h3>《清华法学》 <span class="issue">2026 年第 4 期（最新）· 第 2 期专栏回看</span></h3>
+    <div class="card corp">
+      <h4><span class="chip c-corp">公司法</span>第 2 期「公司法司法解释专栏」5 篇 ⭐</h4>
+      <p>钱玉林：董事的催缴出资责任（解释稿第 27 条，侵权责任定性 + 减损规则类推）；丁俊峰：股权转让纠纷裁判思维（股权变动以公司"接受"为时点）；沈朝晖：库存股的属性与股东失权制度重释（"股权本体消灭说"）；陈洁：定增保底协议效力之辨（建议主体区分路径）；王滢：有限公司股权变动的规范构造（登记对抗模式）。</p>
+    </div>
+    <ul class="rows">
+      <li><span class="chip c-civ">民法</span>崔建远：三论违约损害赔偿的范围及计算——以土地增值的归属为题（第 4 期）</li>
+      <li><span class="chip c-dig">AI/数字</span>辜凌云：论人工智能模型开源的双层治理结构——以版权许可与平台规则为建构（第 4 期）</li>
+      <li><span class="chip c-crim">刑法</span>第 4 期「中国自主刑法学知识体系建构专栏」：王晓东等《贪污贿赂司法解释(二)》重点问题、孙国祥斡旋受贿、梁根林防卫过当、王昭武"天价索赔"、钱叶六不法原因给付</li>
+      <li><span class="chip c-civ">民法</span>汤洁茵：《个人所得税法》一般反避税条款的法教义学阐释（第 3 期）</li>
+      <li><span class="chip c-dig">数据</span>傅雪婷：中国个人数据处理捆绑禁止的路径再造；朱战威：从价格到数据——反垄断分析框架之转型（第 3 期）</li>
+    </ul>
+  </div>
+
+  <div class="journal">
+    <h3>《法学研究》 <span class="issue">2026 年第 5 期（最新，9 月刊出）</span></h3>
+    <div class="card corp">
+      <h4><span class="chip c-corp">商法</span>龙泓任：外观与穿透——商事外观主义的逻辑解构 ⭐</h4>
+      <p>从"外观与穿透"双轨重构商事外观主义的一般逻辑，是 2026 年商法总论层面的少数体系性作品。</p>
+    </div>
+    <ul class="rows">
+      <li><span class="chip c-pub">法治理论</span>彭小龙：预防性法律制度的理论基础与体系构造（干预型/支持型/协同型/塑造型四分类）</li>
+      <li><span class="chip c-pub">宪法</span>陈征：基本权利的立法形成；陈鹏：基本权利限制中的立法裁量</li>
+      <li><span class="chip c-civ">民法</span>彭诚信：推定同意的类型生成——个人信息处理合法性基础的体系重构</li>
+      <li><span class="chip c-intl">涉外</span>陈红彦：气候信息强制披露中的规制权力域外扩张；柯伟才："法律行为"术语溯源考辨</li>
+      <li><span class="chip c-crim">刑法</span>王钢：论防卫挑拨；牟绿叶：面向刑事程序性违法的权利救济体系</li>
+    </ul>
+  </div>
+
+  <div class="journal">
+    <h3>《中外法学》 <span class="issue">2026 年第 3 期 · 近期各期精选</span></h3>
+    <div class="card corp">
+      <h4><span class="chip c-corp">金融法</span>冯辉：贷款人适当性义务的制度构成 ⭐</h4>
+      <p>贷款人适当性义务 = 信用评估匹配 + 违约风险提示 + 冷静期 + 特定群体特别规则，是金融机构借贷合规的新抓手。</p>
+    </div>
+    <div class="card corp">
+      <h4><span class="chip c-corp">竞争法</span>高薇：数字平台监管制度外溢与贸易应对策略 ⭐ ＋ 江山：反不正当竞争法解释的知识转型</h4>
+      <p>前者处理欧盟"布鲁塞尔效应"下数字监管的贸易反制方案；后者确立从商业道德秩序到市场竞争秩序的解释范式漂移。</p>
+    </div>
+    <ul class="rows">
+      <li><span class="chip c-dig">数字法治</span>王迁：著作权侵权平台责任的关键问题——过错认定与必要措施（第 3 期）；高秦伟：基于标准的人工智能规制模式（另期）；舒国滢：人工智能时代的规范延迟</li>
+      <li><span class="chip c-civ">民法</span>李运杨：超越所有权保留的名实之争——区别性救济的证成；孙维飞：单独侵权视角下的比例连带责任</li>
+      <li><span class="chip c-crim">刑法</span>牟绿叶：无罪推定原则的实质内涵及其合宪性调控</li>
+      <li><span class="chip c-pub">程序</span>周翠：专属管辖之概念诠释与规范完善</li>
+    </ul>
+  </div>
+
+  <div class="journal">
+    <h3>《法学家》 <span class="issue">2026 年第 5 期（9-15 刊出）· 第 4 期专题回看</span></h3>
+    <div class="card corp">
+      <h4><span class="chip c-corp">公司法</span>陈景善：母子公司监督机制 ｜ 叶冬影：对赌交易投资人回购权的组织法解构 ⭐</h4>
+      <p>详见"今日重点"板块。另第 4 期专题：《公司法司法解释（征求意见稿）》评析——刘斌：违法关联交易的效力评价与司法审查；刘鹏飞：法人人格否认程序模式的检视与重构。</p>
+    </div>
+    <ul class="rows">
+      <li><span class="chip c-dig">AI/数字</span>申卫星：我国人工智能立法的功能定位与范式转型（主张综合性立法 + 关系建构范式，第 5 期）</li>
+      <li><span class="chip c-corp">商标</span>孔祥俊：《商标法》欺骗性商标条款的法律构造；万勇：驰名商标制度的范式转型（2026 新《商标法》主题研讨）</li>
+      <li><span class="chip c-pub">司法制度</span>丁亮华：经由"阅核"的裁判质量控制——H 省法院实证考察（PSM/DID 因果推断）</li>
+      <li><span class="chip c-civ">程序</span>张卫平：同因不同类诉讼相关关系处置的制度与法理</li>
+      <li><span class="chip c-crim">刑法</span>唐志威：重新发现"罪量"；周光权：人工智能时代的过失犯论（第 4 期）</li>
+    </ul>
+  </div>
+
+  <div class="journal">
+    <h3>《政法论坛》 <span class="issue">2026 年第 4 期（最新）</span></h3>
+    <div class="card corp">
+      <h4><span class="chip c-corp">公司法</span>陈畅：公司法定代表权配置原理分析 ⭐</h4>
+      <p>主张"事权合一"与"机关合一"：法定代表权原则上不能偏离业务执行权独立存在；越权担保效力判断须区分内外关系。</p>
+    </div>
+    <ul class="rows">
+      <li><span class="chip c-corp">破产/金融</span>张艳：实质合并破产程序问题的实证考察；谢登科：涉案虚拟货币处置的实践模式；曾洋：证券虚假陈述"信息信赖"（详见今日重点）</li>
+      <li><span class="chip c-dig">数据法治</span>付新华：正当利益作为大模型处理个人信息的合法性基础；赵精武：开源智能体 Skill 应用的人格权侵权认定；高星阁：生成式 AI 融入多元解纷机制</li>
+      <li><span class="chip c-crim">刑事</span>钱小平：民营企业实质平等保护的刑事法路径；姚万勤：人工智能代理的权力分配逻辑与刑事责任归属</li>
+      <li><span class="chip c-pub">宪法</span>王也：宪法实施情况报告制度的规范效力研究</li>
+    </ul>
+  </div>
+
+  <div class="journal">
+    <h3>《法律适用》 <span class="issue">2026 年第 9 期（最新）· 第 7 期专题回看</span></h3>
+    <div class="card corp">
+      <h4><span class="chip c-corp">证券法</span>第 9 期「上市公司限售股制度研究」专题 ⭐</h4>
+      <p>徐明：限售股股东违规减持的民法属性及责任构成；黄佩蕾：限售股处置的法律适用问题。详见"今日重点"。</p>
+    </div>
+    <div class="card corp">
+      <h4><span class="chip c-corp">公司法</span>第 7 期「系统思维下的股东出资加速到期」专题 ⭐</h4>
+      <p>任重：加速到期的诉讼实施（公司法/民法/民诉法协同）；缪因知：清偿能力评价和责任承担次序；贺幸：适用条件与权利实现。债权人追加未届期股东责任的全流程指南。</p>
+    </div>
+    <ul class="rows">
+      <li><span class="chip c-corp">金融</span>苏洁澈：银行业风险处置制度完善路径（第 7 期）；上海金融法院课题组：证券虚假陈述民事责任实务疑难（第 7 期）</li>
+      <li><span class="chip c-pub">环境法</span>杨临萍：生态环境法典与资源审判现代化；喻海松：后生态环境法典时代环境犯罪构造更新（第 9 期）</li>
+      <li><span class="chip c-dig">数字</span>周辉：AI 模型的司法保护（第 3 期）；陈增宝：数字法院（第 1 期）；徐俊：反不正当竞争法数据保护专款（第 6 期）</li>
+    </ul>
+  </div>
+
+  <div class="journal">
+    <h3>《中国法律评论》 <span class="issue">官网更新滞后 · 公众号持续推送中</span></h3>
+    <div class="card corp">
+      <h4><span class="chip c-corp">公司法</span>「新公司法重点问题研究」专题（龙卫球、陈洁、郜俊辉、司耕旭）⭐</h4>
+      <p>龙卫球：《公司法》修改与《民法典》的适配关系；郜俊辉：审计委员会的模式定位与制度构造；司耕旭：独立董事责任的区分要素与法律限制。另有郭雳：国家金融安全的法治保障；洪艳蓉：新《公司法》下的债券治理与投资者保护。</p>
+    </div>
+  </div>
+
+  <div class="journal">
+    <h3>《中国应用法学》 <span class="issue">本期未能获取（官网及公众号检索未命中最新期目录，后续跟进）</span></h3>
+  </div>
+
+  <div class="journal">
+    <h3>《Computer Law & Security Review》 <span class="issue">December 2026 期（最新）</span></h3>
+    <ul class="rows">
+      <li><span class="chip c-dig">数字主权</span>Rachovitsa：为关键政府数据与基本服务跨境部署设计数字主权的技术-法律架构——"数据使馆"模式（OA）</li>
+      <li><span class="chip c-dig">AI 监管</span>Dóczi & Kristoffersson：2026 年 5 月数字综合法案（digital omnibus）后医疗社交机器人的监管路径（OA）</li>
+      <li><span class="chip c-dig">司法 AI</span>Li：当解释误导时——司法人工智能中的可解释性、错误遵从与人类监督</li>
+      <li><span class="chip c-intl">网络法</span>Alkuwari & Abdelrahman：网络空间第三方反措施与国家责任法的调和</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ 地方法院 ============ -->
+<div class="sec">
+  <h2>⚖️ 地方法院动态</h2>
+  <div class="journal">
+    <h3>朝阳区人民法院 <span class="issue">官网正常</span></h3>
+    <ul class="rows">
+      <li><span class="chip c-corp">营商环境</span>"护航民营经济 法润宜商朝阳"——"薪火雷锋岗"赴朝外商圈讲解"宜商朝阳"典型案例</li>
+      <li><span class="chip c-dig">数字经济</span>"法官 + 数字经济工作站"落户产业园，护航全球数字经济标杆城市建设</li>
+      <li><span class="chip c-civ">调解</span>亚运村法庭协同和平街综治中心化解银发数字教育纠纷（精准指导调解 + 巡回示范庭审）</li>
+      <li><span class="chip c-corp">研讨</span>与北京保险法研究会研讨智能驾驶的法律规制与保险创新；与北京仲裁委员会座谈（涉外法治）</li>
+    </ul>
+  </div>
+  <div class="note">北京高院（创宇云盾反爬拦截）、海淀法院（官网无响应）本期未获取；自动化任务中将加入重试与替代入口。</div>
+</div>
+
+<!-- ============ 学者动态 ============ -->
+<div class="sec">
+  <h2>👤 学者动态（人大法学院等）</h2>
+  <ul class="rows">
+    <li><span class="chip c-corp">竞争法</span>杨东：以携程垄断案查处为重要契机，突破流量垄断"内卷"难题</li>
+    <li><span class="chip c-dig">数字法</span>叶传星：数字平台权力对数字人权的挑战</li>
+    <li><span class="chip c-pub">学术会议</span>中国法学会消费者权益保护法学研究会 2026 年学术年会（9-18/19，人大）；中国社科院社会法学研究会 2026 年年会（9-21）</li>
+    <li><span class="chip c-civ">民法</span>朱虎：为中国式现代化铺就坚实的法治轨道；李琛：洛克财产权理论重解</li>
+  </ul>
+</div>
+
+<!-- ============ 趋势分析 ============ -->
+<div class="sec">
+  <h2>📊 趋势分析</h2>
+
+  <h3 style="font-size:14px;color:#1e3a5f;margin-bottom:6px;">本期主题领域分布（中文顶刊 2026 年最新期合计）</h3>
+  <table class="trend">
+    <tr><th>领域</th><th>占比</th><th>本期信号</th></tr>
+    <tr><td>公司法 / 商法 / 金融 / 证券 / 破产</td><td><strong>≈ 30%</strong></td><td>↑↑ 三个专刊 + 两个专题同时出现，绝对主线</td></tr>
+    <tr><td>数字 / AI / 数据</td><td>≈ 20%</td><td>↑ 从理论转向制度设计（AI 立法、平台责任、大模型合规）</td></tr>
+    <tr><td>刑法（含企业刑事合规）</td><td>≈ 18%</td><td>→ 民企平等保护成为新增长点</td></tr>
+    <tr><td>宪法 / 行政 / 司法制度</td><td>≈ 15%</td><td>→ 阅核制、备案审查、宪法实施报告制度</td></tr>
+    <tr><td>民法 / 程序</td><td>≈ 12%</td><td>→</td></tr>
+    <tr><td>国际法 / 其他</td><td>≈ 5%</td><td>→</td></tr>
+  </table>
+
+  <h3 style="font-size:14px;color:#1e3a5f;margin-bottom:6px;">📌 趋势观察</h3>
+  <ul class="rows">
+    <li><strong>1. 《公司法司法解释（征求意见稿）》是 2026 年中文法学的最大公约数。</strong>清华法学第 2 期专栏、法学家第 4 期专题、法律适用第 7/9 期专题、中国法律评论公司法专题全部围绕新《公司法》及解释稿展开。观察点：解释稿第 83 条（定增保底一律无效）已遭遇陈洁等学者"主体区分"方案的有力挑战，正式稿大概率回调。</li>
+    <li><strong>2. "回购 / 对赌 / 资本维持"形成 2026 年研究双子星。</strong>邹学庚（股份回购清偿能力）→ 叶冬影（对赌回购权组织法解构）→ 缪因知（加速到期清偿能力评价），清偿能力判断标准正在从"单一资本维持"走向"清算 + 资本充足 + 流动性"三维构造。</li>
+    <li><strong>3. 证券法研究从"发行端"转向"减持端与责任端"。</strong>限售股违规减持民事责任（徐明）、虚假陈述"信息信赖"重构（曾洋）、金融法院实务课题组（上海金融法院）——纠纷解决实务成为证券法学的主要素材来源。</li>
+    <li><strong>4. AI 法完成从"要不要管"到"怎么立法"的转向。</strong>申卫星（综合性立法 + 关系建构范式）、清华（开源双层治理）、政法论坛（大模型个人信息合法性基础）、CLSR（数字综合法案后医疗机器人）——中美欧三地同步进入"立法细节"阶段。</li>
+    <li><strong>5. 两高动向：</strong>金融高质量发展 + 知识产权检察 + 网络食品安全（两高联合）——与期刊"金融法治"专题研讨同频，监管趋严信号明显；另注意最高法对房企破产专门纪要的发布节奏（房企出清进入司法深水区）。</li>
+  </ul>
+
+  <h3 style="font-size:14px;color:#1e3a5f;margin-bottom:6px;">📚 今日推荐精读</h3>
+  <div class="recommend"><strong>①</strong> 清华法学 2026-2「公司法司法解释专栏」整期——解释稿定稿前的窗口期文献，写诉状/合规意见前建议通读。</div>
+  <div class="recommend"><strong>②</strong> 叶冬影《对赌交易投资人回购权的组织法解构》（法学家 2026-5）——对赌纠纷"合同有效但执行难"的体系化解法。</div>
+  <div class="recommend"><strong>③</strong> 徐明《上市公司限售股股东违规减持的民法属性及责任构成》（法律适用 2026-9）——证券民事赔偿条线最新规则来源。</div>
+  <div class="recommend"><strong>④</strong> 曾洋《回归"信息信赖"》（政法论坛 2026-4）——虚假陈述因果关系证明的路径重构。</div>
+  <div class="recommend"><strong>⑤</strong> Reverse Acquihires Under the Clayton Act（Yale L.J.）——AI 人才争夺的反垄断边界，国内监管空白议题。</div>
+</div>
+
+<div class="foot">
+  📱 微信推送 · ⏰ 计划每日 08:30 · 第 002 期（试刊）<br>
+  数据源：最高法 court.gov.cn ｜ 最高检 spp.gov.cn ｜ 中国法学网 ｜ 期刊公众号（清华法学/法学研究/中外法学/法学家/政法论坛/法律适用/中国法律评论）｜ Yale/Harvard/Stanford/Columbia/JCLS/CLSR ｜ 朝阳法院官网<br>
+  未获取：北京高院（反爬）｜ 海淀法院（无响应）｜ 中国应用法学（待跟进）
+</div>
+
+</div>
+</body>
+</html>
